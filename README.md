@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Steps to download MANO pickle files:
+Steps to download MANO model:
 - Go to [MANO Website](http://mano.is.tue.mpg.de/) and create an account.
 - Download Models and Code (the downloaded file should be named `mano_v1_2.zip`).
 - Unzip and copy the contents in `mano_v1_2/` folder to the `Dataset Generator/mano/` folder.
@@ -18,6 +18,8 @@ Dataset Generator/
   webuser/
     smpl_handpca_wrapper_HAND_only.py
     serialization.py
+    verts.py
+    ...
 ```
 
 Porting from Python 2.7 to Python 3 (`serialization.py`):
