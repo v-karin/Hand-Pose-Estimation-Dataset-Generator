@@ -20,13 +20,9 @@ Dataset Generator/
     serialization.py
 ```
 
-Porting from Python 2.7 to Python 3:
+Porting from Python 2.7 to Python 3 (`serialization.py`):
 - in `serialization.py`, replace `import cPickle as pickle` with `import pickle`
 - Then, replace `pickle.dump(trainer_dict, open(fname, 'w'), -1)` with `pickle.dump(trainer_dict, open(fname, 'wb'), -1)`
-- Repeat the same in `smpl_handpca_wrapper_HAND_only.py`
-- Then, remove the line `print 'FINITO'`
-- replace the `smpl_data = pickle.load(open(fname_or_dict))` line
-- with `smpl_data = pickle.load(open(fname_or_dict, "rb"), encoding='latin1')`
 
 ## Installation
 
