@@ -5,6 +5,7 @@
 Steps to download MANO model:
 - Go to [MANO Website](http://mano.is.tue.mpg.de/) and create an account.
 - Download Models and Code (the downloaded file should be named `mano_v1_2.zip`).
+- Make a `mano` folder in the `Dataset Generator` folder.
 - Unzip and copy the contents in `mano_v1_2/` folder to the `Dataset Generator/mano/` folder.
 - Then, copy the `smpl_handpca_wrapper_HAND_only.py` and `verts.py` files from the [manotorch Repository](https://github.com/lixiny/manotorch/tree/master/mano/webuser) and paste them in the `Dataset Generator/mano/webuser` folder, replacing any previous files.
 - Your folder structure should look like this:
@@ -57,7 +58,7 @@ this will install Chumpy 0.71, default pypi website only provides Chumpy 0.70, w
 
 
 Initial Cwd (Command Prompt Working Directory):
-`C:/.../[insert user]/.../comp0031-dataset-generator/`
+`C:/.../[insert user]/.../Hand-Pose-Estimation-Dataset-Generator/`
 
 ## To Run:
 
